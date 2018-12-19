@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".healthinsurance_providers_profile"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:gravity="center"
+        android:elevation="0dp"
+        android:id="@+id/appbarid"
+        android:background="#ffff">
+     <de.hdodenhof.circleimageview.CircleImageView
+         android:layout_width="150dp"
+         android:layout_height="100dp"
+         android:src="@drawable/jvan"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jojie Van Claude M. Lanete"
+            android:textColor="#FF00"
+            android:textSize="18sp"/>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabGravity="fill"
+        app:tabMode="fixed"
+        android:id="@+id/tablelayout_id"
+        app:tabTextColor="@color/tabtextcolor"
+        app:tabIndicator="@color/tabindicatorcolor"
+        android:background="@color/colorPrimary"/>
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewpager_id"
+        ></android.support.v4.view.ViewPager>
+
+
+
+
+</LinearLayout>
+
+
